@@ -10,7 +10,7 @@ function App() {
       <Container fluid style={{padding:0}}>
         <Menous />
         <Row>
-          <Col><Home/></Col>
+          <Col lg={6}><Home/></Col>
         </Row>
       </Container>
     </div>
