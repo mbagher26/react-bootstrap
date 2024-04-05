@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import './../styles/Login.css'
 
 export default class Login extends Component {
           render() {
                     return (
                               <>
-                                        <Form>
+                                        <Form className='form-login'>
                                                   <Form.Group className="mb-3" controlId="formBasicEmail">
                                                             <Form.Label>Email address</Form.Label>
                                                             <Form.Control type="email" placeholder="Enter email" />
